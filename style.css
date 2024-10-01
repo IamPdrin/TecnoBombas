@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header */
+header {
+    background-color: #00264d;
+    padding: 20px 0;
+    color: #fff;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+header .logo span {
+    color: #00bfff;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header nav ul li a.login-btn {
+    background-color: #fff;
+    color: #00264d;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* Hero Section */
+.hero {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+    position: relative;
+}
+
+.hero .container {
+    text-align: left; /* Alinhar o texto à esquerda */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.hero h2 {
+    font-size: 2.5rem;
+    color: #00264d;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    max-width: 700px;
+    color: #555;
+}
+
+.hero .btn {
+    padding: 15px 30px;
+    background-color: #00264d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+.hero .hero-image {
+    margin-top: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.hero .hero-image img {
+    width: 50%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Affiliate Section */
+.affiliate {
+    padding: 60px 0;
+    background-color: #f0f0f0;
+}
+
+.affiliate h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #00264d;
+}
+
+.affiliate .affiliate-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.affiliate .affiliate-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 32%;
+}
+
+.affiliate .affiliate-item h3 {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.affiliate .affiliate-item p {
+    color: #555;
+    text-align: left;
+}
+
+.affiliate-item img {
+    width: 100%;
+    height: auto;
+}
+
+.affiliate .btn {
+    padding: 15px 30px;
+    background-color: #00264d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    display: inline-block;
+}
+
+/* Loja Virtual Section */
+.store {
+    padding: 60px 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.store h2 {
+    font-size: 2rem;
+    color: #00264d;
+}
+
+.store p {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #555;
+}
+
+.store .btn {
+    padding: 15px 30px;
+    background-color: #00264d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+/* Suporte Section */
+.support {
+    padding: 60px 0;
+    background-color: #f0f0f0;
+}
+
+.support h2 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #00264d;
+}
+
+.support .support-options {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.support .support-item {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 48%;
+}
+
+.support .support-item h3 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
+
+.support .support-item p {
+    color: #555;
+}

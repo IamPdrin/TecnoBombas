@@ -24,6 +24,7 @@ A presente documentação demonstra os detalhes da construção da Lading Page d
     <img src="/images/prints/support-footer (desktop).png" alt="Printscreen da Fourth Section e Footer" width="700" height="400"/>
 </div>
 
+# 
 # Demonstração: Mobile
 
 <div align="center">

@@ -136,7 +136,7 @@ header nav ul li a.login-btn {
 }
 
 .hero .container {
-    text-align: left; /* Alinhar o texto à esquerda */
+    text-align: left;
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -356,7 +356,7 @@ header nav ul li a.login-btn {
 
 /* Suporte Section */
 .support {
-    padding: 60px 0;
+    padding: 50px 0;
     background-color: #f0f0f0;
 }
 
@@ -374,8 +374,8 @@ header nav ul li a.login-btn {
 .support .support-options {
     display: flex;
     justify-content:center;
-    gap: 40px;
-    margin: 5%;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .support .support-item {
@@ -495,7 +495,6 @@ footer .container {
 }
 
 footer ul {
-    margin-bottom: 60px;
     list-style: none;
     display: grid;
     gap: 20px;
@@ -525,6 +524,7 @@ footer .items-footer {
     display: flex;
     gap: 70px;
     margin-top: 20px;
+    flex-wrap: wrap;
 }
 
 .image-animated {

@@ -28,27 +28,27 @@ A presente documentação demonstra os detalhes da construção da Lading Page d
 # Demonstração: Mobile
 
 <div align="center">
-    <img src="/images/prints/header-hero (mobile).png" alt="Printscreen do Header e da First Section" width="200" height="400"/>
+    <img src="/images/prints/header-hero (mobile).png" alt="Printscreen do Header e da First Section" width="300" height="450"/>
 </div>
 
 ## Affiliate (Second Section)
 <div align="center">
-    <img src="/images/prints/affiliate-section (mobile).png" alt="Printscreen da Second Section" width="200" height="400"/>
+    <img src="/images/prints/affiliate-section (mobile).png" alt="Printscreen da Second Section" width="300" height="450"/>
 </div>
 
 ## Store (Third Section)
 <div align="center">
-    <img src="/images/prints/store-section (mobile).png" alt="Printscreen da Third Section" width="200" height="400"/>
+    <img src="/images/prints/store-section (mobile).png" alt="Printscreen da Third Section" width="300" height="450"/>
 </div>
 
 ## Support (Fourth Section) & Footer
 <div align="center">
-    <img src="/images/prints/support-section (mobile).png" alt="Printscreen da Fourth Section" width="200" height="400"/>
+    <img src="/images/prints/support-section (mobile).png" alt="Printscreen da Fourth Section" width="300" height="450"/>
 </div>
 
 ## Footer
 <div align="center">
-    <img src="/images/prints/footer (mobile).png" alt="Printscreen do Footer" width="200" height="400"/>
+    <img src="/images/prints/footer (mobile).png" alt="Printscreen do Footer" width="300" height="450"/>
 </div>
 
 # Ferramentas Utilizadas

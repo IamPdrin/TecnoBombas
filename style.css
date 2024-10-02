@@ -23,9 +23,59 @@ body a {
     padding: 0 20px;
 }
 
+header nav ul {
+    justify-content: center;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header nav ul li {
+    margin: 0;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+}
+
+header nav ul li a.login-btn {
+    background-color: #fff;
+    color: #0E1143;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+
+/* Media Query para reduzir a navbar */
+@media (max-width: 1000px) {
+    header .container {
+        display: flex;
+        flex-direction: column; /* Altera a direção para coluna, se necessário */
+        align-items: center; /* Centraliza os itens horizontalmente */
+    }
+
+    header nav ul li:nth-child(n+4) { /* Esconde os itens a partir do 4º */
+        display: none;
+    }
+
+    header nav ul {
+        display: flex; 
+        justify-content: center; /* Centraliza os itens do nav */
+        gap: 20px; 
+        padding: 0; 
+        list-style: none; 
+    }
+
+    header .logo {
+        text-align: center;
+        margin-bottom: 10px; 
+    }
+}
+
 /* Header */
 header {
-    position: sticky;
+    /*position: sticky;*/
     background-color: #0E1143;
     padding: 20px 0;
     color: #fff;
@@ -40,6 +90,11 @@ header .container {
     align-items: center;
 }
 
+header .header-mother{
+    display: flex;
+    gap: 1rem;
+}
+
 header .logo h1 {
     font-size: 2rem;
     font-weight: bold;
@@ -48,10 +103,6 @@ header .logo h1 {
 header .logo span {
     color: #00bfff;
 }
-
-header .logo header-img {
-    
-  }
 
 header nav ul {
     justify-content: center;
@@ -119,7 +170,7 @@ header nav ul li a.login-btn {
 }
 
 .hero .hero-image img {
-    width: 86%;
+    width: 100%;
     height: auto;
     border-radius: 10px;
 }
@@ -142,6 +193,37 @@ header nav ul li a.login-btn {
     display: flex;
     justify-content: space-between;
     gap: 30px;
+}
+
+/* Alinha os itens um abaixo do outro em telas menores */
+@media (max-width: 802px) {
+    .affiliate .affiliate-options {
+        flex-direction: column; /* Muda a direção para coluna */
+        align-items: center; /* Centraliza os itens */
+        text-align: center;
+    }
+
+    .affiliate .affiliate-item {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        width: 100%; /* Ocupa toda a largura disponível */
+    }
+
+    .affiliate-item img {
+        min-width: 250px;
+        min-height: 250px;
+    }
+
+    .affiliate .affiliate-item p {
+        min-width: 250px;
+    }
+
+    .affiliate .affiliate-item h3 {
+        min-width: 250px;
+    }
+
 }
 
 .affiliate .affiliate-item {
@@ -193,8 +275,15 @@ header nav ul li a.login-btn {
     margin: 0 auto;
     padding: 0 20px;
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+@media (max-width: 1200px){
+    .store .store-image{
+        flex: 1;
+    }
 }
 
 .store .text-content {
@@ -219,19 +308,18 @@ header nav ul li a.login-btn {
     font-size: 1.2rem;
     margin: 20px 0;
     color: #828282;
-    max-width: 520px;
+    max-width: 420px;
     text-align: left;
     font-weight: lighter !important;
 }
 
 .store .store-content {
-    flex: 1; /* Ocupa o espaço restante */
     text-align: left;
 }
 
-.store .store-image  {
-    flex: 1;
-    text-align: center;
+.store .store-image-container {
+    display: flex;
+    justify-content: end; 
 }
 
 .store .store-image img {
@@ -285,11 +373,16 @@ header nav ul li a.login-btn {
 
 .support .support-options {
     display: flex;
-    justify-content: space-between;
-    gap: 20px;
+    justify-content:center;
+    gap: 40px;
+    margin: 5%;
 }
 
 .support .support-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -314,10 +407,18 @@ header nav ul li a.login-btn {
     max-height: 300px; /* Ajuste o tamanho máximo conforme necessário */
     object-fit: cover;
     border-radius: 10px;
+
 }
 
-/*Registro Section*/
+@media (max-width: 802px) {
+    .support .support-item p {
+        min-width: 170px;
+        min-height: 170px;
+    }
+}
 
+
+/*Registro Section*/
 .register {
     padding: 60px 0;
     text-align: center;
@@ -420,9 +521,11 @@ footer .icon-container i {
     margin:0 10px;
 }
 
-
-/*Thiago*/
-
+footer .items-footer {
+    display: flex;
+    gap: 70px;
+    margin-top: 20px;
+}
 
 .image-animated {
     transition: transform 0.3s ease; 

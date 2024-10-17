@@ -4,6 +4,8 @@ A presente documentação demonstra os detalhes da construção da Lading Page d
 
 # Demonstração: Desktop
 
+<a href="https://iampdrin.github.io/TecnoBombas/" target="_blank">Lading Page</a>
+
 ## Header & Serviços Hidráulicos (First Section)
 <div align="center">
     <img src="/images/prints/header-hero (desktop).png" alt="Printscreen do Header e da First Section" width="700" height="400"/>

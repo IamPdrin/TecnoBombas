@@ -2,7 +2,7 @@
 
 A presente documentação demonstra os detalhes da construção da Lading Page do site que está sendo desenvolvido para a empresa TecnoBombas.
 
-# Demonstração: Desktop
+# Demonstração:
 
 <a href="https://iampdrin.github.io/TecnoBombas/" target="_blank">Lading Page</a>
 
